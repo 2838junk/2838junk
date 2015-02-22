@@ -25,7 +25,7 @@ int readMic(int nMic){
 	// Argument is microphone number; could be fixed or moving
 	// Note:  This should be converted to a time-based loop of greater than 20 ms duration.  One example used 50 ms.
 	int i;						// increment
-	int samples = 1000;			// number of reads per loop; >> convert to milliseconds?
+	int samples = 1010;			// number of reads per loop; >> convert to milliseconds?
 	int signalMax = 0;			// max/min values from the series
 	int signalMin = 4095;
 	//char filename;				//just for dumping data to file for analysis & development
